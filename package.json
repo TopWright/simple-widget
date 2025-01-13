@@ -1,18 +1,29 @@
 {
-  "name": "simple-widget",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
+   "name": "react-simple-widget",
+    "version": "1.0.0",
+    "description": "A customizable React widget for display purposes.",
+    "main": "dist/react-simple-widget.umd.js",
+    "module": "dist/react-simple-widget.esm.js",
+    "files": [
+        "dist"
+    ],
+   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "keywords": ["react", "widget", "customizable"],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
+    "peerDependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/react": "^18.3.18",
