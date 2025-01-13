@@ -1,11 +1,9 @@
+import Widget from "./Widget"
 
-function App() {
-
-  return (
-    <>
-      Hello world
-    </>
-  )
+const App = () => {
+    return (
+        <Widget />
+    )
 }
 
 export default App
